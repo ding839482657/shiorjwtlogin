@@ -81,11 +81,4 @@ public class User implements Serializable {
                 '}';
     }
 
-    public User(Integer id, String username, String password, Integer age, String role) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-        this.age = age;
-        this.role = role;
-    }
 }

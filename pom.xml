@@ -19,10 +19,13 @@
     </properties>
 
     <dependencies>
+        <!--thymeleaf-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
+
+        <!--习惯性的web项目-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -45,12 +48,14 @@
             <scope>test</scope>
         </dependency>
 
+        <!--对数据库的操做我用的TKmybatis简单-->
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring-boot-starter</artifactId>
             <version>2.1.5</version>
         </dependency>
 
+        <!--数据库type引用阿里的德鲁伊-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
